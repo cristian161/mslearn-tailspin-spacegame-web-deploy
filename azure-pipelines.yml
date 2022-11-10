@@ -54,6 +54,7 @@ stages:
         projects: '**/*.csproj'
 
 
+
     - task: DotNetCoreCLI@2
       displayName: 'Publish the project - $(buildConfiguration)'
       inputs:
